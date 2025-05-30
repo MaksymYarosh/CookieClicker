@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f3e8;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.game {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#cookie {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#cookie:active {
+    transform: scale(0.95);
+}
+
+p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.shop {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #f4a261;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e76f51;
+}
